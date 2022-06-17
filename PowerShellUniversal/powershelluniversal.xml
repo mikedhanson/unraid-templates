@@ -23,7 +23,7 @@
   <Description>PowerShell Universal is the ultimate platform for building web-based IT tools.   &#xD;
 </Description>
   <Networking>
-    <Mode>br0</Mode>
+    <Mode>bridge</Mode>
     <Publish/>
   </Networking>
   <Data>
