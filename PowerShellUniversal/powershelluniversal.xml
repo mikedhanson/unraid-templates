@@ -4,12 +4,12 @@
   <Repository>ironmansoftware/universal</Repository>
   <Registry>https://hub.docker.com/r/ironmansoftware/universal/</Registry>
   <Network>bridge</Network>
+  <MyIP>192.168.1.31</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/ironmansoftware/universal/</Support>
   <Project/>
-  <Overview>PowerShell Universal is the ultimate platform for building web-based IT tools.   &#xD;
-</Overview>
+  <Overview>PowerShell Universal is the ultimate platform for building web-based IT tools.</Overview>
   <Category/>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
@@ -17,48 +17,47 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1655480889</DateInstalled>
+  <DateInstalled>1655481870</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>PowerShell Universal is the ultimate platform for building web-based IT tools.   &#xD;
-</Description>
+  <Description>PowerShell Universal is the ultimate platform for building web-based IT tools.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/Universal</HostDir>
+      <HostDir/>
       <ContainerDir>/home/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment>
     <Variable>
-      <Value>/home/data/Repository</Value>
+      <Value/>
       <Name>Data__RepositoryPath</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>/home/data/database.db</Value>
+      <Value/>
       <Name>Data__ConnectionString</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>/home/data/UniversalDashboard</Value>
+      <Value/>
       <Name>UniversalDashboard__AssetsFolder</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>/home/data/logs/log.txt</Value>
+      <Value/>
       <Name>Logging__Path</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="data" Target="/home/data" Default="" Mode="rw" Description="Container Path: /home/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Universal</Config>
-  <Config Name="Data__RepositoryPath" Target="Data__RepositoryPath" Default="" Mode="" Description="Container Variable: Data__RepositoryPath" Type="Variable" Display="always" Required="false" Mask="false">/home/data/Repository</Config>
-  <Config Name="Data__ConnectionString" Target="Data__ConnectionString" Default="" Mode="" Description="Container Variable: Data__ConnectionString" Type="Variable" Display="always" Required="false" Mask="false">/home/data/database.db</Config>
-  <Config Name="UniversalDashboard__AssetsFolder" Target="UniversalDashboard__AssetsFolder" Default="" Mode="" Description="Container Variable: UniversalDashboard__AssetsFolder" Type="Variable" Display="always" Required="false" Mask="false">/home/data/UniversalDashboard</Config>
-  <Config Name="Logging__Path" Target="Logging__Path" Default="" Mode="" Description="Container Variable: Logging__Path" Type="Variable" Display="always" Required="false" Mask="false">/home/data/logs/log.txt</Config>
+  <Config Name="data" Target="/home/data" Default="" Mode="rw" Description="Container Path: /home/data" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Data__RepositoryPath" Target="Data__RepositoryPath" Default="" Mode="" Description="Container Variable: Data__RepositoryPath" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Data__ConnectionString" Target="Data__ConnectionString" Default="" Mode="" Description="Container Variable: Data__ConnectionString" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="UniversalDashboard__AssetsFolder" Target="UniversalDashboard__AssetsFolder" Default="" Mode="" Description="Container Variable: UniversalDashboard__AssetsFolder" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Logging__Path" Target="Logging__Path" Default="" Mode="" Description="Container Variable: Logging__Path" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
