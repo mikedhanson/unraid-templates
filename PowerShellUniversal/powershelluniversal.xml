@@ -3,8 +3,7 @@
   <Name>PowerShellUniversal</Name>
   <Repository>ironmansoftware/universal</Repository>
   <Registry>https://hub.docker.com/r/ironmansoftware/universal/</Registry>
-  <Network>br0</Network>
-  <MyIP>192.168.1.31</MyIP>
+  <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/ironmansoftware/universal/</Support>
@@ -17,7 +16,7 @@
   <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset>20,21,22,23,44,45,46,47</CPUset>
+  <CPUset/>
   <DateInstalled>1655480889</DateInstalled>
   <DonateText/>
   <DonateLink/>
