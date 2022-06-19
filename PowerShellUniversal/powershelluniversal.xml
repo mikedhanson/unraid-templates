@@ -66,4 +66,5 @@
   <Config Name="Data__ConnectionString" Target="Data__ConnectionString" Default="" Mode="" Description="Container Variable: Data__ConnectionString" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="UniversalDashboard__AssetsFolder" Target="UniversalDashboard__AssetsFolder" Default="" Mode="" Description="Container Variable: UniversalDashboard__AssetsFolder" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Logging__Path" Target="Logging__Path" Default="" Mode="" Description="Container Variable: Logging__Path" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="WebUI Port" Target="5000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
 </Container>
