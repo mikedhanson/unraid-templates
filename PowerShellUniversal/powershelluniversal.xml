@@ -21,9 +21,15 @@
   <DonateText/>
   <DonateLink/>
   <Description>PowerShell Universal is the ultimate platform for building web-based IT tools.</Description>
-  <Networking>
+ <Networking>
     <Mode>bridge</Mode>
-    <Publish/>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
