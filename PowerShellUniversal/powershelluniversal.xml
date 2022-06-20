@@ -13,7 +13,7 @@
   <Category/>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>https://avatars.githubusercontent.com/u/34902941</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
