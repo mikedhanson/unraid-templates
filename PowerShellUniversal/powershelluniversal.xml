@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>PowerShellUniversal</Name>
-  <Repository>ironmansoftware/universal</Repository>
-  <Registry>https://hub.docker.com/r/ironmansoftware/universal/</Registry>
+  <Repository>devolutions/powershell-universal</Repository>
+  <Registry>https://hub.docker.com/r/devolutions/powershell-universal/</Registry>
   <Network>bridge</Network>
   <MyIP>192.168.1.31</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/ironmansoftware/universal/</Support>
+  <Support>https://hub.docker.com/r/devolutions/powershell-universal</Support>
   <Project/>
   <Overview>PowerShell Universal is the ultimate platform for building web-based IT tools.</Overview>
   <Category/>
